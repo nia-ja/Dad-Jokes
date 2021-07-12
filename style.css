@@ -25,6 +25,8 @@ body {
   text-align: center;
   max-width: 100%;
   width: 800px;
+  min-height: 80vh;
+  position: relative;
 }
 
 h3 {
@@ -50,10 +52,14 @@ h3 {
   padding: 14px 40px;
   font-size: 16px;
   cursor: pointer;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.98), translateX(-50%);
 }
 
 .btn:focus {
