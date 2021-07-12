@@ -59,7 +59,7 @@ h3 {
 }
 
 .btn:active {
-  transform: scale(0.98), translateX(-50%);
+  transform: scale(0.98) translateX(-50%);
 }
 
 .btn:focus {
